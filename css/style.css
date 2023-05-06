@@ -1,0 +1,30 @@
+body {
+  background-color: blueviolet;
+}
+
+.display {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 100px;
+
+  position: relative;
+  top: 100px;
+}
+
+.display__word {
+
+}
+
+.display__word-text {
+  border: 1px solid yellowgreen;
+  width: 100px;
+  height: 30px;
+
+  text-transform: uppercase;
+}
+
+.display__word-text-hidden {
+  font-size: 0px;
+}
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess The Words</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Угадать слова из песни</h1>
+  <main>
+    <div class="container">
+
+      <button class="btn btn__next">Новый текст</button>
+
+      <div class="counter">
+        <p class="counter__text">Очки: <span class="counter__text-count"></span></p>
+      </div>
+
+      <div class="display"></div>
+
+      <form class="answer-form" action="post"></form>
+
+    </div>
+  </main>
+
+  <template id="display__word-template">
+    <div class="display__word">
+      <button class="display__word-text display__word-text-hidden"></button>
+    </div>
+  </template>
+
+  <template id="answer__input-template">
+    <input class="answer__input" type="text">
+  </template>
+
+  <script src="js/main.js" type="module"></script>
+</body>
+</html>
